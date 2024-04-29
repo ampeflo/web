@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30;
+    padding: 0;
+}
+
+header {
+    background: url(imagenes/OIP\ \(6\).jpeg) repeat;
+    background-position-x:left ;
+    background-color: rgb(231, 136, 203);
+    color:#ffffff;
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration:underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(14, 255, 243, 0.26);
+    margin-bottom: 20px;
+}
+
+footer{
+    background: url(imagenes/3641556\ \(1\).jpg) repeat;
+    background-color: rgb(28, 28, 66);
+    color:aliceblue;
+    text-align: justify;
+    padding: 15px;
+}
+
+img {
+    align-self:center;
+    width: 30%;
+}
+.contenedor-imagen img {
+transform: scale(2.2);
+}
